@@ -1,0 +1,13 @@
+cabarchive==0.2.5
+charset-normalizer==3.4.4
+cx_Freeze==8.5.3
+filelock==3.24.2
+freeze-core==0.5.0
+lief==0.17.1
+packaging==26.0
+pdf2image==1.17.0
+pillow==12.1.1
+PyMuPDF==1.27.1
+PyPDF2==3.0.1
+reportlab==4.4.10
+striprtf==0.0.29

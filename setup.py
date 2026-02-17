@@ -3,7 +3,7 @@ from cx_Freeze import setup, Executable
 import os
 
 # Имя главного файла
-main_script = "app.py"
+main_script = "main.py"
 
 # Список дополнительных файлов и папок, которые нужно включить
 include_files = [
@@ -32,8 +32,8 @@ base = "Win32GUI"
 
 setup(
     name="PDF подпись",
-    version="1.0",
-    description="Подписать pdf с помощью png",
+    version="1.1",
+    description="Инструмент для добавления подписи в PDF",
     options={"build_exe": build_exe_options},
     executables=[
         Executable(
